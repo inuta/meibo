@@ -1,6 +1,6 @@
 import MySQLdb
 
-conn = MySQLdb.connect(host='localhost', user='root', passwd='PW', db='meibo_db', charset='utf8')
+conn = MySQLdb.connect(host='localhost', user='root', passwd='10baton', db='meibo_db', charset='utf8')
 curs = conn.cursor()
 
 #curs.execute("CREATE TABLE meibotest(id INT, lastname TEXT, firstname TEXT, lstyomi TEXT, fstyomi TEXT, start DATE, birth DATE, age INT);" )
